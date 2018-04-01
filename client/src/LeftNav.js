@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {getImages} from './Albumaction.js'
 import {Link, withRouter} from 'react-router-dom'
 import {getAlbumCovers} from './Albumaction'
 import {connect} from 'react-redux'
@@ -20,9 +19,10 @@ class LeftNav extends Component {
 		return (
 			<div className="sumsidebar">
 				<div><Link to="/">HOME</Link></div>
+				<button onClick={()=>{this.props.history.goBack()}}>Back</button>
 				<ul>
 				{this.props.albums.map(album => (
-						<Link to={"/album/" + album.id}><li>{album.albumtitle}</li></Link>
+						<div key={"albumlink" + album.id}><Link to={"/album/" + album.id}><li>{album.albumtitle}</li></Link></div>
 						))}
 				</ul>
 			</div>

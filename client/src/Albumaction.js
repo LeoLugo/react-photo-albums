@@ -18,3 +18,12 @@ export function getImages(id){
 		})
 	})
 }
+
+export function getPic(id){
+	axios.get('http://localhost:3001/images/?id=' + id).then(resp => {
+		store.dispatch({
+			type: 'GET_PIC',
+			payload: resp.data[0]
+		})
+	})
+}

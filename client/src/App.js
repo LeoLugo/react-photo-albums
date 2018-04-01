@@ -5,6 +5,7 @@ import Albumsview from './Albumsview.js'
 import {Provider} from 'react-redux'
 import store from './store.js'
 import Albumsum from './Albumsum'
+import Imagesum from './Imagesum'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           <div className="app">
         	  <Route exact path="/" component={Albumsview} />
         	  <Route path="/album/:id" component={Albumsum} />
+            <Route path="/images/:id" component={Imagesum} />
         	</div>
         </Router>
       </Provider>
