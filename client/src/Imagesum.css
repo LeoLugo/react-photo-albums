@@ -1,0 +1,8 @@
+.imagesumpic img {
+	max-width: 900px;
+}
+.imagesumpic {
+	margin: auto;
+	max-width: 800px;
+	margin-top: 150px;
+}

@@ -1,0 +1,15 @@
+.sumphoto img {
+	max-width: 600px;
+	margin: auto;
+}
+.sumcontent {
+	width: 600px;
+	margin: auto;
+}
+.albumsumtitle {
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+a:hover {
+	background-color: #CC3421;
+}

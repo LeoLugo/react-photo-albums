@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
 import {getPic} from './Albumaction.js'
 import {connect} from 'react-redux'
+import './Imagesum.css'
+import home from './resources/home.svg'
+import back from './resources/back.svg'
+import {Link} from 'react-router-dom'
 
 class Imagesum extends Component {
 
@@ -21,8 +25,9 @@ class Imagesum extends Component {
 		return(
 
 			<div>
-				<button onClick={()=>{this.props.history.goBack()}}>Back</button>
-				<div><img alt="" src={this.props.pic}/></div>
+				<div><Link to="/" className="home"><img alt="" src={home} /></Link></div>
+				<input type="image" alt="" className="backbutton"src={back} onClick={()=>{this.props.history.goBack()}} />
+				<div className="imagesumpic"><img alt="" src={this.props.pic}/></div>
 			</div>
 
 

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import {getImages} from './Albumaction.js'
 import LeftNav from './LeftNav'
 import {connect} from 'react-redux'
+import './Albumsum.css'
 
 class Albumsum extends Component {
 	componentDidMount(){
@@ -22,8 +23,8 @@ class Albumsum extends Component {
 				<div className="sumcontent">
 					{this.props.images.map(image => (
 						<div key={"image" + image.id}>
-					<Link to={"/images/" + image.id}><div className="sumphoto"><img alt="" src={image.pic}/></div></Link>
-					<div>{image.pictitle}</div>
+					<Link to={"/images/" + image.id}><div className="sumphoto"><img alt="" src={image.pic}/></div>
+					<div className="albumsumtitle">{image.pictitle}</div></Link>
 					</div>
 						))}
 				</div>
