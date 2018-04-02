@@ -13,3 +13,15 @@
 a:hover {
 	background-color: #CC3421;
 }
+.addownpic {
+	position: absolute;
+	right: 20px;
+	top: 44px;
+	width: 100px;
+	height: 100px;
+}
+.addpicture {
+	width: 100px;
+	height: 100px;
+	margin-bottom: -5px;
+}

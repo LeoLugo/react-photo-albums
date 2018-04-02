@@ -1,146 +1,144 @@
 {
-	"albums": [
-		{
-			"id": 1,
-			"pic": "http://www.rssportscars.com/photos/potd/wmotor-lykan-hypersport/lykan_hypersport.jpg",
-			"albumtitle": "Sports Cars"
-		},
-		{
-			"id": 2,
-			"pic": "https://www.gannett-cdn.com/-mm-/190f8113122d24882d04b42d9b464063ea848d2b/c=252-0-2747-1876&r=x393&c=520x390/local/-/media/2016/03/10/USATODAY/USATODAY/635932351823282447-CN016-012JPcc5bldne5a95n8d3vr1mkjkdue.jpg",
-			"albumtitle": "Trucks"
-		},
-		{
-			"id": 3,
-			"pic": "https://img00.deviantart.net/9085/i/2009/230/a/8/burning_guitar_by_jayicesight.jpg",
-			"albumtitle": "Guitars"
-		},
-		{
-			"id": 4,
-			"pic": "https://i.pinimg.com/originals/91/ec/20/91ec205a8796910fdd9f91bedaccd931.jpg",
-			"albumtitle": "Drums"
-		},
-		{
-			"id": 5,
-			"pic": "https://bloximages.newyork1.vip.townnews.com/daily-journal.com/content/tncms/assets/v3/editorial/b/cf/bcfe428d-0c93-57ad-b25e-8800740c6c5a/57e6911f064e3.image.jpg",
-			"albumtitle": "Vintage"
-		},
-		{
-			"id": 6,
-			"pic": "https://images-na.ssl-images-amazon.com/images/I/617NPhL-rbL._SL1000_.jpg",
-			"albumtitle": "Modern"
-		}
-	],
-
-	"images": [
-		{
-			"albumId": 1,
-			"id": 1,
-			"pic": "http://cdn-ds.com/media/1775/w_1920/sz_1201744/blue-img.jpg",
-			"pictitle": "Baby Blue Huracan"
-		},
-		{
-			"albumId": 1,
-			"id": 2,
-			"pic": "https://images4.alphacoders.com/239/239674.jpg",
-			"pictitle": "Tron Aventador"
-		},
-		{
-			"albumId": 1,
-			"id": 3,
-			"pic": "https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/788x525/quality/85/https://s.aolcdn.com/commerce/autodata/images/USC50LGC051A01300.jpg",
-			"pictitle": "White Huracan"
-		},
-		{
-			"albumId": 2,
-			"id": 4,
-			"pic": "http://hennesseyperformance.com/wp-content/uploads/2016/02/VelociRaptor-600-Hennessey-Stage-2-1-crop.jpg",
-			"pictitle": "Velociraptor"
-		},
-		{
-			"albumId": 2,
-			"id": 5,
-			"pic": "https://images.hgmsites.net/hug/2017-ford-f-150-raptor-equipped-with-alcon-brake-upgrade_100610415_h.jpg",
-			"pictitle": "Raptor"
-		},
-		{
-			"albumId": 2,
-			"id": 6,
-			"pic": "https://i.pinimg.com/originals/58/c6/18/58c61823f1147152530f7820445a887a.jpg",
-			"pictitle": "Trophy Raptor"
-		},
-		{
-			"albumId": 3,
-			"id": 7,
-			"pic": "https://images.unsplash.com/photo-1459305272254-33a7d593a851?ixlib=rb-0.3.5&s=c214d4da859fb39ad50c72e187086ba5&auto=format&fit=crop&w=1650&q=80",
-			"pictitle": "Brown Guitar"
-		},
-		{
-			"albumId": 3,
-			"id": 8,
-			"pic": "https://images.unsplash.com/uploads/1411419601965aa225d37/edbc4ef7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=709f7226ed77c7da58d0374df2d2a5c5&auto=format&fit=crop&w=1950&q=80",
-			"pictitle": "Electric Guitar"
-		},
-		{
-			"albumId": 3,
-			"id": 9,
-			"pic": "https://images.unsplash.com/photo-1485278537138-4e8911a13c02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=886a0f91a96180b3a50193764570715f&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "White Guitar"
-		},
-		{
-			"albumId": 4,
-			"id": 10,
-			"pic": "https://images.unsplash.com/photo-1457523054379-8d03ab9fc2aa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8771f6d4bd8b5ac37feb9e824efd7109&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Electric Drums"
-		},
-		{
-			"albumId": 4,
-			"id": 11,
-			"pic": "https://images.unsplash.com/photo-1461784121038-f088ca1e7714?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fdb6ebf5fff5c45057753ff1191fa0be&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Classic Drums"
-		},
-		{
-			"albumId": 4,
-			"id": 12,
-			"pic": "https://images.unsplash.com/photo-1512053459797-38c3a066cabd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44bbc35d10a654754c36ec39dda6bc9b&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Concert Drums"
-		},
-		{
-			"albumId": 5,
-			"id": 13,
-			"pic": "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae29adbe918cb18e89f9c06a97c0c878&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Vintage Phones"
-		},
-		{
-			"albumId": 5,
-			"id": 14,
-			"pic": "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f729eb52d41d8915bae7ac30c23b63b8&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Typewriter"
-		},
-		{
-			"albumId": 5,
-			"id": 15,
-			"pic": "https://images.unsplash.com/photo-1452451312475-5055e48f74cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=37b358e63bbea9d99df0cd99674d0f91&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Vintage TV Set"
-		},
-		{
-			"albumId": 6,
-			"id": 16,
-			"pic": "https://images.unsplash.com/photo-1455762279210-ae6b56c7ad7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7522f34b1053460789c77e9915608c0&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "iPhone"
-		},
-		{
-			"albumId": 6,
-			"id": 17,
-			"pic": "https://images.unsplash.com/photo-1509701852059-c221a6f1e878?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7f61efa194e095a25ad9e476765ba1f5&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Macbook"
-		},
-		{
-			"albumId": 6,
-			"id": 18,
-			"pic": "https://images.unsplash.com/photo-1521607630287-ee2e81ad3ced?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f699bab148861bbcfc9ed567dc9b1f76&auto=format&fit=crop&w=800&q=60",
-			"pictitle": "Modern TV"
-		}
-
-	]
+  "albums": [
+    {
+      "id": 1,
+      "pic": "http://www.rssportscars.com/photos/potd/wmotor-lykan-hypersport/lykan_hypersport.jpg",
+      "albumtitle": "Sports Cars"
+    },
+    {
+      "id": 2,
+      "pic": "https://www.gannett-cdn.com/-mm-/190f8113122d24882d04b42d9b464063ea848d2b/c=252-0-2747-1876&r=x393&c=520x390/local/-/media/2016/03/10/USATODAY/USATODAY/635932351823282447-CN016-012JPcc5bldne5a95n8d3vr1mkjkdue.jpg",
+      "albumtitle": "Trucks"
+    },
+    {
+      "id": 3,
+      "pic": "https://img00.deviantart.net/9085/i/2009/230/a/8/burning_guitar_by_jayicesight.jpg",
+      "albumtitle": "Guitars"
+    },
+    {
+      "id": 4,
+      "pic": "https://i.pinimg.com/originals/91/ec/20/91ec205a8796910fdd9f91bedaccd931.jpg",
+      "albumtitle": "Drums"
+    },
+    {
+      "id": 5,
+      "pic": "https://bloximages.newyork1.vip.townnews.com/daily-journal.com/content/tncms/assets/v3/editorial/b/cf/bcfe428d-0c93-57ad-b25e-8800740c6c5a/57e6911f064e3.image.jpg",
+      "albumtitle": "Vintage"
+    },
+    {
+      "id": 6,
+      "pic": "https://images-na.ssl-images-amazon.com/images/I/617NPhL-rbL._SL1000_.jpg",
+      "albumtitle": "Modern"
+    }
+  ],
+  "images": [
+    {
+      "albumId": 1,
+      "id": 1,
+      "pic": "http://cdn-ds.com/media/1775/w_1920/sz_1201744/blue-img.jpg",
+      "pictitle": "Baby Blue Huracan"
+    },
+    {
+      "albumId": 1,
+      "id": 2,
+      "pic": "https://images4.alphacoders.com/239/239674.jpg",
+      "pictitle": "Tron Aventador"
+    },
+    {
+      "albumId": 1,
+      "id": 3,
+      "pic": "https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/788x525/quality/85/https://s.aolcdn.com/commerce/autodata/images/USC50LGC051A01300.jpg",
+      "pictitle": "White Huracan"
+    },
+    {
+      "albumId": 2,
+      "id": 4,
+      "pic": "http://hennesseyperformance.com/wp-content/uploads/2016/02/VelociRaptor-600-Hennessey-Stage-2-1-crop.jpg",
+      "pictitle": "Velociraptor"
+    },
+    {
+      "albumId": 2,
+      "id": 5,
+      "pic": "https://images.hgmsites.net/hug/2017-ford-f-150-raptor-equipped-with-alcon-brake-upgrade_100610415_h.jpg",
+      "pictitle": "Raptor"
+    },
+    {
+      "albumId": 2,
+      "id": 6,
+      "pic": "https://i.pinimg.com/originals/58/c6/18/58c61823f1147152530f7820445a887a.jpg",
+      "pictitle": "Trophy Raptor"
+    },
+    {
+      "albumId": 3,
+      "id": 7,
+      "pic": "https://images.unsplash.com/photo-1459305272254-33a7d593a851?ixlib=rb-0.3.5&s=c214d4da859fb39ad50c72e187086ba5&auto=format&fit=crop&w=1650&q=80",
+      "pictitle": "Brown Guitar"
+    },
+    {
+      "albumId": 3,
+      "id": 8,
+      "pic": "https://images.unsplash.com/uploads/1411419601965aa225d37/edbc4ef7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=709f7226ed77c7da58d0374df2d2a5c5&auto=format&fit=crop&w=1950&q=80",
+      "pictitle": "Electric Guitar"
+    },
+    {
+      "albumId": 3,
+      "id": 9,
+      "pic": "https://images.unsplash.com/photo-1485278537138-4e8911a13c02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=886a0f91a96180b3a50193764570715f&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "White Guitar"
+    },
+    {
+      "albumId": 4,
+      "id": 10,
+      "pic": "https://images.unsplash.com/photo-1457523054379-8d03ab9fc2aa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8771f6d4bd8b5ac37feb9e824efd7109&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Electric Drums"
+    },
+    {
+      "albumId": 4,
+      "id": 11,
+      "pic": "https://images.unsplash.com/photo-1461784121038-f088ca1e7714?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fdb6ebf5fff5c45057753ff1191fa0be&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Classic Drums"
+    },
+    {
+      "albumId": 4,
+      "id": 12,
+      "pic": "https://images.unsplash.com/photo-1512053459797-38c3a066cabd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=44bbc35d10a654754c36ec39dda6bc9b&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Concert Drums"
+    },
+    {
+      "albumId": 5,
+      "id": 13,
+      "pic": "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae29adbe918cb18e89f9c06a97c0c878&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Vintage Phones"
+    },
+    {
+      "albumId": 5,
+      "id": 14,
+      "pic": "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f729eb52d41d8915bae7ac30c23b63b8&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Typewriter"
+    },
+    {
+      "albumId": 5,
+      "id": 15,
+      "pic": "https://images.unsplash.com/photo-1452451312475-5055e48f74cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=37b358e63bbea9d99df0cd99674d0f91&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Vintage TV Set"
+    },
+    {
+      "albumId": 6,
+      "id": 16,
+      "pic": "https://images.unsplash.com/photo-1455762279210-ae6b56c7ad7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7522f34b1053460789c77e9915608c0&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "iPhone"
+    },
+    {
+      "albumId": 6,
+      "id": 17,
+      "pic": "https://images.unsplash.com/photo-1509701852059-c221a6f1e878?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7f61efa194e095a25ad9e476765ba1f5&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Macbook"
+    },
+    {
+      "albumId": 6,
+      "id": 18,
+      "pic": "https://images.unsplash.com/photo-1521607630287-ee2e81ad3ced?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f699bab148861bbcfc9ed567dc9b1f76&auto=format&fit=crop&w=800&q=60",
+      "pictitle": "Modern TV"
+    }
+  ]
 }

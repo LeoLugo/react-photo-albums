@@ -10,13 +10,13 @@ class Imagesum extends Component {
 
 	componentDidMount(){
 		getPic(this.props.match.params.id)
-		console.log(this.props)
+		console.log(this)
 	}				
 
 	componentWillReceiveProps(newprops) {
 		if (newprops.match.params.id !== this.props.match.params.id) {
 			getPic(newprops.match.params.id)
-			console.log(this.props)
+			console.log(this)
 		}
 	}
 
@@ -27,7 +27,8 @@ class Imagesum extends Component {
 			<div>
 				<div><Link to="/" className="home"><img alt="" src={home} /></Link></div>
 				<input type="image" alt="" className="backbutton"src={back} onClick={()=>{this.props.history.goBack()}} />
-				<div className="imagesumpic"><img alt="" src={this.props.pic}/></div>
+				<div className="imagesumpic"><img alt="" src={this.props.pic.pic}/></div>
+				<div className="imagesumtitle">{this.props.pic.pictitle}</div>
 			</div>
 
 
@@ -38,7 +39,7 @@ class Imagesum extends Component {
 function mapStateToProps(state){
 	
 	return {
-		pic: state.pic.pic
+		pic: state.pic
 	}
 }
 
