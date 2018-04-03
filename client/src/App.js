@@ -18,7 +18,7 @@ class App extends Component {
         	  <Route exact path="/" component={Albumsview} />
         	  <Route path="/album/:id" component={Albumsum} />
             <Route path="/images/:id" component={Imagesum} />
-            <Route path="/addpicture" component={AddPic} />
+            <Route path="/addpicture/:albumId" component={AddPic} />
         	</div>
         </Router>
       </Provider>

@@ -21,7 +21,7 @@ class Albumsum extends Component {
 		return(
 			<div className="albumsumcontainer">
 				<LeftNav />
-				<div className="addownpic"><Link to="/addpicture"><img className="addpicture" alt="" src={addpic}/></Link></div>
+				<div className="addownpic"><Link to={"/addpicture/" + this.props.match.params.id} ><img className="addpicture" alt="" src={addpic}/></Link></div>
 				<div className="sumcontent">
 					{this.props.images.map(image => (
 						<div key={"image" + image.id}>

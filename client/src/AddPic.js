@@ -17,7 +17,11 @@ class AddPic extends Component {
 
 	manageSubmit = (e) => {
 		e.preventDefault()
-		axios.post('http://localhost:3001/images/', this.state).then(resp => {
+		axios.post('http://localhost:3001/images/', {
+			pic: this.state.pic,
+			pictitle: this.state.pictitle,
+			albumId:this.props.match.params.albumId
+		}).then(resp => {
 			this.props.history.push('/')
 		}).catch(e => {
 			
