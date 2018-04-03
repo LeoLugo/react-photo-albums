@@ -1,0 +1,29 @@
+.addpicmain {
+	width: 600px;
+	height: 600px;
+	border: 1px solid white;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+}
+.addpictitle {
+	font-size: 40px;
+	text-align: center;
+}
+label {
+	margin-right: 10px;
+}
+.addpicpictitle, .addpicpicurl {
+	margin-bottom: 10px;
+}
+input, button {
+	outline: none;
+}
+input {
+	height: 25px;
+	width: 150px;
+}
+button {
+	height: 30px;
+	width: 120px;
+}

@@ -27,8 +27,10 @@ class Imagesum extends Component {
 			<div>
 				<div><Link to="/" className="home"><img alt="" src={home} /></Link></div>
 				<input type="image" alt="" className="backbutton"src={back} onClick={()=>{this.props.history.goBack()}} />
-				<div className="imagesumpic"><img alt="" src={this.props.pic.pic}/></div>
-				<div className="imagesumtitle">{this.props.pic.pictitle}</div>
+				<div className="imagesumcontent">
+					<div className="imagesumpic"><img alt="" src={this.props.pic.pic}/></div>
+					<div className="imagesumtitle">{this.props.pic.pictitle}</div>
+				</div>
 			</div>
 
 
